@@ -22,6 +22,7 @@ public class LoginStepDefinition {
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/executables/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
+		System.out.println("Test Step 1");
 		
 	}
 
